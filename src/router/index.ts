@@ -1,7 +1,8 @@
 import { createWebHistory, createRouter } from "vue-router";
 import { Router, RouteRecordRaw } from 'vue-router'
 import Layout from '@/Layout/Index.vue'
-import kanban from '@/views/kanban/kanban.vue'
+import kanban from '@/views/kanban/index.vue'
+
 const routes:Array<RouteRecordRaw> = [
   {
     path: "/",

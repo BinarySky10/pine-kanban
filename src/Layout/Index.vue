@@ -52,7 +52,11 @@
 
 <style scoped lang="scss">
 .header-container {
+  position: fixed;
+  top:0;
+  
   height: 44px;
+  width: 100%;
   padding: 0 24px;
   display: flex;
   align-content: center;

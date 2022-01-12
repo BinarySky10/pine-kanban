@@ -1,0 +1,14 @@
+.card{
+  // width: 280px;
+  // height: 200px;
+  // background: orange;
+
+  width: 256px;
+  height: fit-content;
+  cursor: pointer;
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+  padding: 10px 12px;
+  box-shadow: rgb(3 14 44 / 9%) 0px 2px 6px 0px;
+  border-radius: 8px;
+}
