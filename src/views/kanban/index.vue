@@ -11,7 +11,10 @@
           卡片组标题
         </div>
         <div class="card-container">
-          <pine-card></pine-card>
+          <pine-card 
+          v-for="item in [1, 2, 3]"
+          :key="item"
+          ></pine-card>
         </div>
       </div>
     </div>
